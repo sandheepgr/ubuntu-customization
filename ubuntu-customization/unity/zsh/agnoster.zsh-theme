@@ -79,7 +79,7 @@ prompt_end() {
 
 # Context: user@hostname (who am I and where am I)
 prompt_context() {
-	now=$(date +"%m-%d-%Y %T")
+	now=$(date +"%Y-%m-%d %T")
   if [[ "$USER" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then
 		prompt_segment black default "%(!.%{%F{yellow}%}.)$now"
   fi
