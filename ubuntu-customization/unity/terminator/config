@@ -1,0 +1,100 @@
+[global_config]
+  enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+[keybindings]
+[profiles]
+  [[default]]
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    visible_bell = True
+    background_image = None
+    use_system_font = False
+    foreground_color = "#657b83"
+    font = DejaVu Sans Mono 9
+    background_color = "#fdf6e3"
+  [[myprofile]]
+    palette = "#2e3d4d:#cd0000:#00cd00:#cdcd00:#2094e7:#cd00cd:#00cdcd:#e5e5e5:#4c4c4c:#ff0000:#00ff00:#ffff00:#4682b4:#ff00ff:#00ffff:#ffffff"
+    background_image = None
+    use_system_font = False
+    foreground_color = "#d3d7cf"
+    font = Meslo LG S DZ for Powerline 10
+    background_color = "#0d1926"
+    scrollback_infinite = True
+  [[New Profile]]
+    background_image = None
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+    [[[window0]]]
+      type = Window
+      parent = ""
+  [[mylayout]]
+    [[[child0]]]
+      position = 0:24
+      type = Window
+      order = 0
+      parent = ""
+      size = 1600, 876
+    [[[child1]]]
+      position = 438
+      type = VPaned
+      order = 0
+      parent = child0
+    [[[child2]]]
+      position = 578
+      type = HPaned
+      order = 0
+      parent = child1
+    [[[child4]]]
+      position = 511
+      type = HPaned
+      order = 1
+      parent = child2
+    [[[child7]]]
+      position = 583
+      type = HPaned
+      order = 1
+      parent = child1
+    [[[child9]]]
+      position = 505
+      type = HPaned
+      order = 1
+      parent = child7
+    [[[terminal11]]]
+      profile = default
+      type = Terminal
+      order = 1
+      parent = child9
+      title = Local
+    [[[terminal10]]]
+      profile = default
+      type = Terminal
+      order = 0
+      parent = child9
+      title = Local
+    [[[terminal3]]]
+      profile = default
+      type = Terminal
+      order = 0
+      parent = child2
+      title = SJ Prod
+    [[[terminal5]]]
+      profile = default
+      type = Terminal
+      order = 0
+      parent = child4
+      title = SJ 02
+    [[[terminal6]]]
+      profile = default
+      type = Terminal
+      order = 1
+      parent = child4
+      title = Java Prod
+    [[[terminal8]]]
+      profile = default
+      type = Terminal
+      order = 0
+      parent = child7
+      title = CMS Stating
+[plugins]
