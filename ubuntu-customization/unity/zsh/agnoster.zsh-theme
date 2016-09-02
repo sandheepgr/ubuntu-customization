@@ -79,10 +79,16 @@ prompt_end() {
 
 # Context: user@hostname (who am I and where am I)
 prompt_context() {
+	
+	# Get the date in the required format
 	now=$(date +"%Y-%m-%d %T")
-  if [[ "$USER" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then
-		prompt_segment black default "%(!.%{%F{yellow}%}.)$now"
-  fi
+
+	# Write to the prompt
+	prompt_segment black default "%(!.%{%F{yellow}%}.)$now"
+	
+  #if [[ "$USER" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then
+		#prompt_segment black default "%(!.%{%F{yellow}%}.)$now"
+  #fi
 }
 
 # Git: branch/detached head, dirty status
