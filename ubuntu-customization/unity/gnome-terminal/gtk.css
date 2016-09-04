@@ -1,0 +1,7 @@
+@import url("gtk-main.css");
+VteTerminal,
+TerminalScreen,
+vte-terminal{
+padding: 0;
+-VteTerminal-inner-border: 0;
+}

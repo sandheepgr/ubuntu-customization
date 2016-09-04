@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="word_chars" mtime="1448280497" schema="/schemas/apps/gnome-terminal/profiles/Default/word_chars" type="string">
+		<stringvalue>-A-Za-z0-9,./?%&amp;#:_=+@~</stringvalue>
+	</entry>
+	<entry name="use_theme_background" mtime="1448280497" type="bool" value="false"/>
+	<entry name="use_custom_default_size" mtime="1472975039" schema="/schemas/apps/gnome-terminal/profiles/Default/use_custom_default_size" type="bool" value="true"/>
+	<entry name="use_custom_command" mtime="1448280497" schema="/schemas/apps/gnome-terminal/profiles/Default/use_custom_command" type="bool" value="false"/>
+	<entry name="update_records" mtime="1448280497" schema="/schemas/apps/gnome-terminal/profiles/Default/update_records" type="bool" value="true"/>
+	<entry name="title_mode" mtime="1448280497" schema="/schemas/apps/gnome-terminal/profiles/Default/title_mode" type="string">
+		<stringvalue>replace</stringvalue>
+	</entry>
+	<entry name="title" mtime="1448280497" schema="/schemas/apps/gnome-terminal/profiles/Default/title" type="string">
+		<stringvalue>Terminal</stringvalue>
+	</entry>
+	<entry name="silent_bell" mtime="1448280497" schema="/schemas/apps/gnome-terminal/profiles/Default/silent_bell" type="bool" value="false"/>
+	<entry name="scrollbar_position" mtime="1472975039" schema="/schemas/apps/gnome-terminal/profiles/Default/scrollbar_position" type="string">
+		<stringvalue>hidden</stringvalue>
+	</entry>
+	<entry name="scrollback_unlimited" mtime="1472975039" schema="/schemas/apps/gnome-terminal/profiles/Default/scrollback_unlimited" type="bool" value="true"/>
+	<entry name="scrollback_lines" mtime="1448280497" schema="/schemas/apps/gnome-terminal/profiles/Default/scrollback_lines" type="int" value="512"/>
+	<entry name="scroll_on_output" mtime="1448280497" schema="/schemas/apps/gnome-terminal/profiles/Default/scroll_on_output" type="bool" value="false"/>
+	<entry name="scroll_on_keystroke" mtime="1448280497" schema="/schemas/apps/gnome-terminal/profiles/Default/scroll_on_keystroke" type="bool" value="true"/>
+	<entry name="scroll_background" mtime="1448280497" schema="/schemas/apps/gnome-terminal/profiles/Default/scroll_background" type="bool" value="true"/>
+	<entry name="login_shell" mtime="1448280497" schema="/schemas/apps/gnome-terminal/profiles/Default/login_shell" type="bool" value="false"/>
+	<entry name="icon" mtime="1448280497" schema="/schemas/apps/gnome-terminal/profiles/Default/icon" type="string">
+		<stringvalue></stringvalue>
+	</entry>
+	<entry name="exit_action" mtime="1448280497" schema="/schemas/apps/gnome-terminal/profiles/Default/exit_action" type="string">
+		<stringvalue>close</stringvalue>
+	</entry>
+	<entry name="encoding" mtime="1448280497" schema="/schemas/apps/gnome-terminal/profiles/Default/encoding" type="string">
+		<stringvalue>current</stringvalue>
+	</entry>
+	<entry name="delete_binding" mtime="1448280497" schema="/schemas/apps/gnome-terminal/profiles/Default/delete_binding" type="string">
+		<stringvalue>escape-sequence</stringvalue>
+	</entry>
+	<entry name="default_size_rows" mtime="1448280497" schema="/schemas/apps/gnome-terminal/profiles/Default/default_size_rows" type="int" value="24"/>
+	<entry name="default_size_columns" mtime="1472975039" schema="/schemas/apps/gnome-terminal/profiles/Default/default_size_columns" type="int" value="91"/>
+	<entry name="default_show_menubar" mtime="1472975039" schema="/schemas/apps/gnome-terminal/profiles/Default/default_show_menubar" type="bool" value="false"/>
+	<entry name="custom_command" mtime="1448280497" schema="/schemas/apps/gnome-terminal/profiles/Default/custom_command" type="string">
+		<stringvalue></stringvalue>
+	</entry>
+	<entry name="cursor_shape" mtime="1448280497" schema="/schemas/apps/gnome-terminal/profiles/Default/cursor_shape" type="string">
+		<stringvalue>block</stringvalue>
+	</entry>
+	<entry name="cursor_blink_mode" mtime="1448280497" schema="/schemas/apps/gnome-terminal/profiles/Default/cursor_blink_mode" type="string">
+		<stringvalue>system</stringvalue>
+	</entry>
+	<entry name="bold_color_same_as_fg" mtime="1448280497" schema="/schemas/apps/gnome-terminal/profiles/Default/bold_color_same_as_fg" type="bool" value="true"/>
+	<entry name="backspace_binding" mtime="1448280497" schema="/schemas/apps/gnome-terminal/profiles/Default/backspace_binding" type="string">
+		<stringvalue>ascii-del</stringvalue>
+	</entry>
+	<entry name="background_type" mtime="1472975039" schema="/schemas/apps/gnome-terminal/profiles/Default/background_type" type="string">
+		<stringvalue>image</stringvalue>
+	</entry>
+	<entry name="background_image" mtime="1448280497" schema="/schemas/apps/gnome-terminal/profiles/Default/background_image" type="string">
+		<stringvalue></stringvalue>
+	</entry>
+	<entry name="background_darkness" mtime="1472975039" schema="/schemas/apps/gnome-terminal/profiles/Default/background_darkness" type="float" value="1"/>
+	<entry name="allow_bold" mtime="1472975039" schema="/schemas/apps/gnome-terminal/profiles/Default/allow_bold" type="bool" value="false"/>
+	<entry name="font" mtime="1472975039" schema="/schemas/apps/gnome-terminal/profiles/Default/font" type="string">
+		<stringvalue>Meslo LG S DZ for Powerline 10</stringvalue>
+	</entry>
+	<entry name="use_system_font" mtime="1472975039" schema="/schemas/apps/gnome-terminal/profiles/Default/use_system_font" type="bool" value="false"/>
+	<entry name="use_theme_colors" mtime="1472975039" schema="/schemas/apps/gnome-terminal/profiles/Default/use_theme_colors" type="bool" value="false"/>
+	<entry name="palette" mtime="1472975161" schema="/schemas/apps/gnome-terminal/profiles/Default/palette" type="string">
+		<stringvalue>#2E2D3D3C4D4D:#F5F579780000:#7373D2D11615:#D554C1D77F49:#40DAC851F332:#CECE5C5B0000:#C1C07D7C1110:#7373D2D11615:#262626262626:#EDEDD4D40000:#7373D2D11615:#EFEF29292929:#0000ABAAFFFF:#BAB99F9F0000:#E9E8B9B86E6E:#ADAD7F7FA8A7</stringvalue>
+	</entry>
+	<entry name="alternate_screen_scroll" mtime="1472975039" schema="/schemas/apps/gnome-terminal/profiles/Default/alternate_screen_scroll" type="bool" value="true"/>
+	<entry name="background_color" mtime="1472975039" schema="/schemas/apps/gnome-terminal/profiles/Default/background_color" type="string">
+		<stringvalue>#0D0D19192626</stringvalue>
+	</entry>
+	<entry name="visible_name" mtime="1472975039" schema="/schemas/apps/gnome-terminal/profiles/Default/visible_name" type="string">
+		<stringvalue>Mac Profile</stringvalue>
+	</entry>
+	<entry name="bold_color" mtime="1472975039" schema="/schemas/apps/gnome-terminal/profiles/Default/bold_color" type="string">
+		<stringvalue>#000000000000</stringvalue>
+	</entry>
+	<entry name="foreground_color" mtime="1472975039" schema="/schemas/apps/gnome-terminal/profiles/Default/foreground_color" type="string">
+		<stringvalue>#D3D1D7D7CFCF</stringvalue>
+	</entry>
+</gconf>

@@ -11,9 +11,56 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+
+" utilities
+Plugin 'kien/ctrlp.vim' " fuzzy find files
+Plugin 'scrooloose/nerdtree' " file drawer, open with :NERDTreeToggle
+Plugin 'benmills/vimux'
+Plugin 'tpope/vim-fugitive' " the ultimate git helper
+Plugin 'tpope/vim-commentary' " comment/uncomment lines with gcc or gc in
+Plugin 'scrooloose/NERDCommenter'
+Plugin 'scrooloose/syntastic'
+Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'https://github.com/christoomey/vim-tmux-runner'
+Plugin 'christoomey/vim-run-interactive'
+Plugin 'jeffkreeftmeijer/vim-numbertoggle' " for toggling the relative line numbering based on mode
+Plugin 'flazz/vim-colorschemes'
+Plugin 'gcmt/taboo.vim'
+
+
+hi TabLineFill ctermfg=Black ctermbg=Black
+hi TabLine ctermfg=Yellow ctermbg=DarkGray cterm=bold
+hi TabLineSel ctermfg=Red ctermbg=235
+set autoindent
+set smartindent
+set showmatch
+set formatoptions-=t
+set number
 set laststatus=2
 let g:airline_powerline_fonts = 1
 let g:airline_theme='powerlineish'
+nmap <silent> <C-T> :NERDTreeToggle<CR>
+set pastetoggle=<F2>
+
+set cursorline
+hi CursorLine term=bold cterm=bold
+
+syntax enable
+set background=dark
+
+nnoremap th  :tabfirst<CR>
+nnoremap tj  :tabnext<CR>
+nnoremap tk  :tabprev<CR>
+nnoremap tl  :tablast<CR>
+nnoremap tt  :tabedit<Space>
+nnoremap tn  :tabnext<Space>
+nnoremap tm  :tabm<Space>
+nnoremap td  :tabclose<CR>
+
+
+" Color for the line number section
+highlight LineNr ctermbg=233
+highlight LineNr ctermfg=244
 
 "irline_powerline_fonts = 1
 "let g:airline_theme='powerlineish' All of your Plugins must be added before the following line
