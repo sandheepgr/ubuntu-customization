@@ -87,3 +87,6 @@ source $ZSH/oh-my-zsh.sh
 # Set the color support to 256
 export TERM=xterm-256color
 export LANG=en_IN.UTF-8
+
+# Make the cursor color yellow
+echo -e "\e]12;yellow\a"
