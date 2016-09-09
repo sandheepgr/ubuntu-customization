@@ -2,6 +2,7 @@
 VteTerminal,
 TerminalScreen,
 vte-terminal{
-padding: 0;
--VteTerminal-inner-border: 0;
+padding:0;
+-VteTerminal-inner-border: 0; /* Set the border to 0 to make gnome-terminal align status bar to bottom on full screen and top to 10 for normal*/
 }
+

@@ -26,11 +26,12 @@ Plugin 'christoomey/vim-run-interactive'
 Plugin 'jeffkreeftmeijer/vim-numbertoggle' " for toggling the relative line numbering based on mode
 Plugin 'flazz/vim-colorschemes'
 Plugin 'gcmt/taboo.vim'
-
+Plugin 'tpope/vim-surround'
 
 hi TabLineFill ctermfg=Black ctermbg=Black
-hi TabLine ctermfg=Yellow ctermbg=DarkGray cterm=bold
+hi TabLine ctermfg=Black ctermbg=DarkGray cterm=bold
 hi TabLineSel ctermfg=Red ctermbg=235
+set nowrap " Don't wrap code
 set autoindent
 set smartindent
 set showmatch
@@ -48,7 +49,7 @@ hi CursorLine term=bold cterm=bold
 syntax enable
 set background=dark
 
-nnoremap th  :tabfirst<CR>
+
 nnoremap tj  :tabnext<CR>
 nnoremap tk  :tabprev<CR>
 nnoremap tl  :tablast<CR>
