@@ -4,6 +4,11 @@ References:
 https://github.com/chpii/Headerbar
 https://www.maketecheasier.com/integrate-firefox-to-gnome-shell/
 
+Fix for the transparent background
+----------------------------------
+Install stylish addon
+Create a new style and paste the content of stylish-gnome-theme-menu-bg-fix.css
+
 
 Contents of the Header bar github page
 ---------------------------------------
