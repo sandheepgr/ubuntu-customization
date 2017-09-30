@@ -27,6 +27,8 @@ Plugin 'jeffkreeftmeijer/vim-numbertoggle' " for toggling the relative line numb
 Plugin 'flazz/vim-colorschemes'
 Plugin 'gcmt/taboo.vim'
 Plugin 'tpope/vim-surround'
+Plugin 'KabbAmine/vullScreen.vim' 
+
 
 hi TabLineFill ctermfg=Black ctermbg=Black
 hi TabLine ctermfg=Black ctermbg=DarkGray cterm=bold
