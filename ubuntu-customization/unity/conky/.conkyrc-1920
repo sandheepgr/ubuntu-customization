@@ -29,7 +29,7 @@ temperature_unit fahrenheit
 own_window yes
 own_window_type normal
 own_window_transparent no
-own_window_hints undecorate,sticky,skip_taskbar,skip_pager,below
+own_window_hints undecorate,skip_taskbar,skip_pager,below
 own_window_argb_visual yes
 own_window_argb_value 0
 
