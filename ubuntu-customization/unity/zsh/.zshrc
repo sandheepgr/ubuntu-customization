@@ -51,7 +51,7 @@ DISABLE_AUTO_TITLE="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git extract sublime colorize dirhistory history jsontools jump spring)
+plugins=(git extract sublime colorize dirhistory history jsontools jump spring zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -88,5 +88,5 @@ source $ZSH/oh-my-zsh.sh
 export TERM=xterm-256color
 export LANG=en_IN.UTF-8
 
-# Make the cursor color yellow
+# Make the cursor color green
 echo -e "\e]12;yellow\a"

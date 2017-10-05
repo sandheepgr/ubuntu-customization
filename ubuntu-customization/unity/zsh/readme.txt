@@ -19,3 +19,14 @@ Configuration
 -------------
 The configuration is covered in the .zshrc file 
 
+ZSH plugin 
+----------
+using zsh-autosuggestions for the suggestions 
+URL :  https://github.com/zsh-users/zsh-autosuggestions
+Follow the installation instructions for the oh-my-zsh section
+
+1. git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
+2. Add the zsh-autosuggestions for plugins in zshrc
+   plugins=(zsh-autosuggestions)
+
+

@@ -71,29 +71,29 @@ lua_draw_hook_pre clock_rings
 ## Adjust these fields according to the your screen size i have modded them for 1366X768
 
 TEXT
-${offset 1200}${voffset 10}${color EAEAEA}${font GE Inspira:pixelsize=120}${time %H:%M}${font}${voffset -84}${voffset 10}${color FFA300}${font GE Inspira:pixelsize=36}${time %d} ${voffset -15}${color EAEAEA}${font GE Inspira:pixelsize=22}${time  %B} ${time %Y}${font}${voffset 124}${font GE Inspira:pixelsize=40}${offset -170}${time %A}${font}
-${offset 1210}${voffset -75}${font Ubuntu:pixelsize=12}${color FFA300}HD ${offset 9}$color${fs_free /} / ${fs_size /}${offset 30}${color FFA300}RAM ${offset 2}$color$mem / $memmax${offset 15}${color FFA300}CPU1 = ${offset 2}$color${cpu cpu0}%${offset 15}${color FFA300}CPU2 = ${offset 2}$color${cpu cpu1}%${offset 15}${color FFA300}CPU3 =${offset 2}$color${cpu cpu2}%${offset 15}${color FFA300}CPU4 = ${offset 2}$color${cpu cpu3}%
+${offset 1250}${voffset 20}${color EAEAEA}${font GE Inspira:pixelsize=120}${time %H:%M}${font}${voffset -84}${offset 20}${voffset 5}${color FFA300}${font GE Inspira:pixelsize=36}${time %d} ${voffset -5}${color EAEAEA}${font GE Inspira:pixelsize=30}${time  %B} ${time %Y} ${voffset 50}${offset -275}${font GE Inspira:pixelsize=40}${time %A}${font}${voffset 70}${font GE Inspira:pixelsize=40}${offset -270}${font}
+${offset 1260}${voffset -75}${font Ubuntu:pixelsize=12}${color FFA300}HD ${offset 9}$color${fs_free /} / ${fs_size /}${offset 30}${color FFA300}RAM ${offset 2}$color$mem / $memmax${offset 15}${color FFA300}CPU1 = ${offset 2}$color${cpu cpu0}%${offset 15}${color FFA300}CPU2 = ${offset 2}$color${cpu cpu1}%${offset 15}${color FFA300}CPU3 =${offset 2}$color${cpu cpu2}%${offset 15}${color FFA300}CPU4 = ${offset 2}$color${cpu cpu3}%
 # the horizontal line to top (original offset value = 271)
-${voffset 5}${offset 1210}${color ffffff}${hr 2}
+${voffset 5}${offset 1260}${color ffffff}${hr 4}
 ${image ~/.conky/rev-eng.png}
 
 
-${offset 130}${voffset 222}${font Droid Sans:size=12:style=Bold}root : ${font Droid Sans:size=12}${fs_used /}/${fs_size /}
+${offset 130}${voffset 188}${font Droid Sans:size=12:style=Bold}root : ${font Droid Sans:size=12}${fs_used /}/${fs_size /}
 ${offset 130}${voffset 10}${font Droid Sans:size=12:style=Bold}home: ${font Droid Sans:size=12}${fs_used /home/Rev-Eng/Solaris}/${fs_size /home/Rev-Eng/Solaris}$font
-${offset 120}${voffset 12}${color ffffff}${font Droid Sans:size=12:style=Bold}swap: ${font Droid Sans:size=12} ${swap} / ${swapfree}$font
+${offset 120}${voffset 8}${color ffffff}${font Droid Sans:size=12:style=Bold}swap: ${font Droid Sans:size=12} ${swap} / ${swapfree}$font
  
 
 ${offset 1610}${voffset -0}${color FFA300}${font Droid Sans:size=13:style=Bold}Processes:
-${offset 1710}${voffset 10}${color ffffff}${font Droid Sans:size=10}${top name 1} ${goto 1600} ${top mem 1}
-${offset 1710}${voffset 0}${color ffffff}${font Droid Sans:size=10}${top name 2} ${goto 1600} ${top mem 2}
-${offset 1710}${voffset 0}${color ffffff}${font Droid Sans:size=10}${top name 3} ${goto 1600} ${top mem 3}
-${offset 1710}${voffset 0}${color ffffff}${font Droid Sans:size=10}${top name 4} ${goto 1600} ${top mem 4}
-${offset 1710}${voffset 0}${color ffffff}${font Droid Sans:size=10}${top name 5} ${goto 1600} ${top mem 5}
-${offset 1710}${voffset 0}${color ffffff}${font Droid Sans:size=10}${top name 6} ${goto 1600} ${top mem 6}
-${offset 1710}${voffset 0}${color ffffff}${font Droid Sans:size=10}${top name 7} ${goto 1600} ${top mem 7}
-${offset 1710}${voffset 0}${color ffffff}${font Droid Sans:size=10}${top name 8} ${goto 1600} ${top mem 8}
-${offset 1710}${voffset 0}${color ffffff}${font Droid Sans:size=10}${top name 9} ${goto 1600} ${top mem 9}
-${offset 1710}${voffset 0}${color ffffff}${font Droid Sans:size=10}${top name 10} ${goto 1600} ${top mem 10}
+${offset 1710}${voffset 10}${color ffffff}${font Droid Sans:size=10}${top name 1} ${goto 1600} ${top cpu 1}
+${offset 1710}${voffset 0}${color ffffff}${font Droid Sans:size=10}${top name 2} ${goto 1600} ${top cpu 2}
+${offset 1710}${voffset 0}${color ffffff}${font Droid Sans:size=10}${top name 3} ${goto 1600} ${top cpu 3}
+${offset 1710}${voffset 0}${color ffffff}${font Droid Sans:size=10}${top name 4} ${goto 1600} ${top cpu 4}
+${offset 1710}${voffset 0}${color ffffff}${font Droid Sans:size=10}${top name 5} ${goto 1600} ${top cpu 5}
+${offset 1710}${voffset 0}${color ffffff}${font Droid Sans:size=10}${top name 6} ${goto 1600} ${top cpu 6}
+${offset 1710}${voffset 0}${color ffffff}${font Droid Sans:size=10}${top name 7} ${goto 1600} ${top cpu 7}
+${offset 1710}${voffset 0}${color ffffff}${font Droid Sans:size=10}${top name 8} ${goto 1600} ${top cpu 8}
+${offset 1710}${voffset 0}${color ffffff}${font Droid Sans:size=10}${top name 9} ${goto 1600} ${top cpu 9}
+${offset 1710}${voffset 0}${color ffffff}${font Droid Sans:size=10}${top name 10} ${goto 1600} ${top cpu 10}
 
 ${offset 1610}${voffset -450}${color FFA300}${font Droid Sans:size=10:style=Bold}Networking:
 ${offset 1610}${voffset 12}${color ffffff}${font Droid Sans:size=10}IP Address :${addr wlp4s0}
@@ -106,7 +106,7 @@ ${offset 1610}${color ffffff}${font Droid Sans:size=10}Up
 ${offset 1610}${voffset 10}${color ffffff}${font Droid Sans:size=10}${color #000000}${font Droid Sans:size=10}${upspeedgraph wlp4s0 32,150 000000 ffffff}
 
 
-${offset 1610}${voffset 430}${color ffffff}${font Droid Sans:size=10:style=Bold}${exec whoami}@${nodename}
+${offset 1610}${voffset 460}${color ffffff}${font Droid Sans:size=10:style=Bold}${exec whoami}@${nodename}
 ${offset 1610}${voffset 5}Uptime :${uptime}
 
 #${execi 1200 twidge lsrecent >  /home/sandheepgr/scripts/tweets.txt}

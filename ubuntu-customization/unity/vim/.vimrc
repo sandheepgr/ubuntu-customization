@@ -51,6 +51,23 @@ hi CursorLine term=bold cterm=bold
 syntax enable
 set background=dark
 
+" disable the arrow kes in insert mode
+inoremap <Up> <nop>
+inoremap <Down> <nop>
+inoremap <Left> <nop>
+inoremap <Right> <nop>
+
+" Disable the arrow keys in normal mode
+nnoremap <Up> <nop>
+nnoremap <Down> <nop>
+nnoremap <Left> <nop>
+nnoremap <Right> <nop>
+
+" Disable the escape key on insert mode ( force to use jk ) 
+inoremap <esc> <nop>
+
+" Map jk as the mode switch
+inoremap jk  <esc>
 
 nnoremap tj  :tabnext<CR>
 nnoremap tk  :tabprev<CR>
