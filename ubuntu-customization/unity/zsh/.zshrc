@@ -4,10 +4,13 @@
 # Path to your oh-my-zsh installation.
   export ZSH=/home/sandheepgr/.oh-my-zsh
 
+# Set the font config as awesome-fontconfig for powerlevel9k
+POWERLEVEL9K_MODE='awesome-fontconfig'
+
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="agnoster"
+ZSH_THEME="powerlevel9k/powerlevel9k"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -90,3 +93,43 @@ export LANG=en_IN.UTF-8
 
 # Make the cursor color green
 echo -e "\e]12;yellow\a"
+
+# POWERLEVE9K settings
+DISABLE_AUTO_TITLE="true"
+
+# POWERLEVEL9K BATTERY SETTINGS
+POWERLEVEL9K_BATTERY_CHARGING='yellow'
+POWERLEVEL9K_BATTERY_CHARGED='green'
+POWERLEVEL9K_BATTERY_DISCONNECTED='$DEFAULT_COLOR'
+POWERLEVEL9K_BATTERY_LOW_THRESHOLD='10'
+POWERLEVEL9K_BATTERY_LOW_COLOR='red'
+POWERLEVEL9K_BATTERY_ICON='\uf1e6 '
+
+# Multiple line prompt 
+POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX=''
+POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX='\uf0da'
+
+# VCS Prompt settings
+POWERLEVEL9K_VCS_GIT_ICON='\ue60a'
+POWERLEVEL9K_VCS_MODIFIED_BACKGROUND='yellow'
+POWERLEVEL9K_VCS_UNTRACKED_BACKGROUND='yellow'
+POWERLEVEL9K_VCS_UNTRACKED_ICON='?'
+
+# Prompt element settings
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(status os_icon battery dir vcs)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(time load background_jobs ram virtualenv rbenv rvm)
+
+# Time format 
+POWERLEVEL9K_CUSTOM_TIME_FORMAT="%D{\uf017 %H:%M:%S}"
+# POWERLEVEL9K_TIME_FORMAT="%D{\uf017 %H:%M \uf073 %d.%m.%y}" # enable for date as well
+POWERLEVEL9K_TIME_FORMAT="%D{\uf017 %H:%M}"
+
+# General settings
+POWERLEVEL9K_STATUS_VERBOSE=false
+POWERLEVEL9K_PROMPT_ON_NEWLINE=false
+
+# Settings to show only the current dir
+POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
+POWERLEVEL9K_SHORTEN_DELIMITER=""
+POWERLEVEL9K_SHORTEN_STRATEGY="truncate_folders"
+POWERLEVEL9K_DIR_OMIT_FIRST_CHARACTER=true
