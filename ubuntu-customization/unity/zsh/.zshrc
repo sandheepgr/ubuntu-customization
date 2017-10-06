@@ -4,6 +4,8 @@
 # Path to your oh-my-zsh installation.
   export ZSH=/home/sandheepgr/.oh-my-zsh
 
+
+
 # Set the font config as awesome-fontconfig for powerlevel9k
 POWERLEVEL9K_MODE='awesome-fontconfig'
 
@@ -133,3 +135,7 @@ POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
 POWERLEVEL9K_SHORTEN_DELIMITER=""
 POWERLEVEL9K_SHORTEN_STRATEGY="truncate_folders"
 POWERLEVEL9K_DIR_OMIT_FIRST_CHARACTER=true
+
+# Added to remove the margin on the right prompt
+ZLE_RPROMPT_INDENT=0
+
