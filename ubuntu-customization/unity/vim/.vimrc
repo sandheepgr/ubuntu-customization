@@ -1,6 +1,13 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
+" Set the :find command to search for a file recursively in the current
+" directory
+set path+=**
+
+" Set the wildmenu so that we can get suggestions when using wildcard 
+set wildmenu
+
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -28,7 +35,8 @@ Plugin 'flazz/vim-colorschemes'
 Plugin 'gcmt/taboo.vim'
 Plugin 'tpope/vim-surround'
 Plugin 'KabbAmine/vullScreen.vim' 
-
+Plugin 'simeji/winresizer'
+Plugin 'szw/vim-maximizer'
 
 hi TabLineFill ctermfg=Black ctermbg=Black
 hi TabLine ctermfg=Black ctermbg=DarkGray cterm=bold
@@ -51,6 +59,9 @@ hi CursorLine term=bold cterm=bold
 syntax enable
 set background=dark
 
+" Set the shortcut to open the NerdTree
+map <C-t> :NERDTreeToggle<CR>
+
 " disable the arrow kes in insert mode
 inoremap <Up> <nop>
 inoremap <Down> <nop>
@@ -58,16 +69,17 @@ inoremap <Left> <nop>
 inoremap <Right> <nop>
 
 " Disable the arrow keys in normal mode
-nnoremap <Up> <nop>
-nnoremap <Down> <nop>
-nnoremap <Left> <nop>
-nnoremap <Right> <nop>
+" nnoremap <Up> <nop>
+" nnoremap <Down> <nop>
+" nnoremap <Left> <nop>
+" nnoremap <Right> <nop>
 
 " Disable the escape key on insert mode ( force to use jk ) 
 inoremap <esc> <nop>
 
 " Map jk as the mode switch
 inoremap jk  <esc>
+
 
 nnoremap tj  :tabnext<CR>
 nnoremap tk  :tabprev<CR>
