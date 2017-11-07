@@ -111,6 +111,9 @@ set pastetoggle=<F2>
 " Set the \r to be the short cut for the reload of the vimrc file
 noremap <leader>r :so %<CR>
 
+" Set the \w to be the short cut for saving the file 
+noremap <leader>w :w<CR>
+
 " disable the arrow kes in insert mode
 inoremap <Up> <nop>
 inoremap <Down> <nop>
