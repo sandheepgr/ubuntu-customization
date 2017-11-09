@@ -94,7 +94,7 @@ nmap <leader>+ <Plug>AirlineSelectNextTab
 set cursorline
 
 " Set the current line hightlight
-hi CursorLine term=bold cterm=bold ctermbg=235
+hi CursorLine term=bold cterm=bold ctermbg=234
 
 " Enable syntax 
 syntax enable
@@ -113,6 +113,12 @@ noremap <leader>r :so %<CR>
 
 " Set the \w to be the short cut for saving the file 
 noremap <leader>w :w<CR>
+
+" Key mapping for copy to system clipboard
+noremap <leader>y "+y
+
+" Key mapping for paste from system clipboard
+noremap <leader>p "+p
 
 " disable the arrow kes in insert mode
 inoremap <Up> <nop>
