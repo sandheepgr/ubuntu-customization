@@ -114,6 +114,9 @@ noremap <leader>r :so %<CR>
 " Set the \w to be the short cut for saving the file 
 noremap <leader>w :w<CR>
 
+" Set the \s to be shortcut for the sudo write
+noremap <leader>s :w !sudo tee %<CR>
+
 " Key mapping for copy to system clipboard
 noremap <leader>y "+y
 
